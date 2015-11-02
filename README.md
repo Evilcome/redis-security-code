@@ -1,6 +1,6 @@
 # redis-security-code
-![NPM](https://img.shields.io/npm/v/npm.svg)
-![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](http://mit-license.org)
+[![NPM](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/redis-security-code)
+[![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](http://mit-license.org)
 
 A simple security code generator based on redis client. Security code, Verify, Verification code, 验证码.
 
