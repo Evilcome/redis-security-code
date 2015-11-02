@@ -33,6 +33,14 @@ module.exports.init = function(options) {
     SecurityCode._inited = true;
 };
 
+module.exports.generate = function(key, callback) {
+    module.exports.generateForTag(key, '', callback);
+};
+
+module.exports.verify = function(key, code, callback) {
+    module.exports.verifyForTag(key, '', code, callback);
+};
+
 module.exports.generateForTag = function(key, tag, callback) {
     assert(SecurityCode._inited, 'You should call RedisSecurityCode.init first.');
     callback = callback || function() {};
