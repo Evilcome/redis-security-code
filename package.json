@@ -1,0 +1,27 @@
+{
+  "name": "redis-security-code",
+  "version": "0.0.1",
+  "description": "A simple security code generator based on redis client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evilcome/redis-security-code.git"
+  },
+  "keywords": [
+    "security",
+    "code",
+    "verify",
+    "verification",
+    "code",
+    "验证码"
+  ],
+  "author": "evilcome.com@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Evilcome/redis-security-code/issues"
+  },
+  "homepage": "https://github.com/Evilcome/redis-security-code#readme"
+}
